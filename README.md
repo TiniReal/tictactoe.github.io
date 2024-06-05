@@ -22,16 +22,6 @@ Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppat
   
 3. **Avviare l'Applicazione**
    
-## Struttura del Progetto
-
-- **src/**: Contiene i file sorgenti del progetto.
-  - **components/**: Contiene i componenti Vue.
-    - `TicTacToe.vue`: Il componente principale della griglia di gioco.
-    - `Square.vue`: Il componente per ogni singola casella della griglia.
-  - **App.vue**: Il componente principale dell'applicazione.
-  - **main.ts**: Il file di ingresso dell'applicazione.
-- **public/**: Contiene i file statici.
-- **vite.config.ts**: Configurazione di Vite.
 
 ## Licenza
 
