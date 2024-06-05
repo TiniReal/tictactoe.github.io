@@ -17,23 +17,11 @@ Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppat
 ## Installazione
 
 1. **Clonare il Repository**
-    ```bash
-    git clone https://github.com/tuo-username/tic-tac-toe-vue.git
-    cd tic-tac-toe-vue
-    ```
-
+   
 2. **Installare le Dipendenze**
-    ```bash
-    npm install
-    ```
-
+  
 3. **Avviare l'Applicazione**
-    ```bash
-    npm run dev
-    ```
-
-    L'applicazione sarà disponibile su `http://localhost:3000`.
-
+   
 ## Struttura del Progetto
 
 - **src/**: Contiene i file sorgenti del progetto.
