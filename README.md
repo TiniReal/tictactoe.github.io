@@ -17,11 +17,20 @@ Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppat
 ## Installazione
 
 1. **Clonare il Repository**
+   ```bash
+    git clone https://github.com/tuo-username/tic-tac-toe-vue.git
+    cd tic-tac-toe-vue
+    ```
    
 2. **Installare le Dipendenze**
-  
+  ```bash
+    npm install
+   ```
+
 3. **Avviare l'Applicazione**
-   
+   ```bash
+    npm run dev
+    ```
 
 ## Licenza
 
@@ -41,6 +50,4 @@ Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [LICENSE](./LIC
 2. **Alternanza di X e O**: Cliccando su una casella, essa verrà riempita con una X o una O, alternando ad ogni click.
 3. **Vincitore**: Continuare a giocare fino a completare una linea di tre simboli uguali (orizzontale, verticale o diagonale).
 
-## Prova il gioco
-[Link al sito]()
 Divertiti a giocare a Tic Tac Toe!
