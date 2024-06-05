@@ -18,8 +18,8 @@ Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppat
 
 1. **Clonare il Repository**
    ```bash
-    git clone https://github.com/tuo-username/tic-tac-toe-vue.git
-    cd tic-tac-toe-vue
+    git clone https://github.com/TiniReal/tictactoe.github.io.git
+    cd tictactoe
     ```
    
 2. **Installare le Dipendenze**
