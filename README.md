@@ -1,9 +1,66 @@
 # Progetto Vue.js 1 di Thomas Tinelli
+# Tic Tac Toe 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppato con Vue, TypeScript e Vite. Questo progetto offre una semplice interfaccia grafica per giocare a Tris, dove due giocatori possono alternarsi cliccando sui riquadri di una griglia 3x3.
 
-## Recommended Setup
+## Funzionalità
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- **Griglia 3x3**: Una griglia di gioco interattiva di 3x3 caselle.
+- **Alternanza dei Turni**: I giocatori si alternano tra X e O ad ogni click sulla griglia.
+- **Reset del Gioco**: Possibilità di resettare la griglia e iniziare una nuova partita.
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Requisiti
+
+- Node.js v14 o superiore
+- npm v6 o superiore
+
+## Installazione
+
+1. **Clonare il Repository**
+    ```bash
+    git clone https://github.com/tuo-username/tic-tac-toe-vue.git
+    cd tic-tac-toe-vue
+    ```
+
+2. **Installare le Dipendenze**
+    ```bash
+    npm install
+    ```
+
+3. **Avviare l'Applicazione**
+    ```bash
+    npm run dev
+    ```
+
+    L'applicazione sarà disponibile su `http://localhost:3000`.
+
+## Struttura del Progetto
+
+- **src/**: Contiene i file sorgenti del progetto.
+  - **components/**: Contiene i componenti Vue.
+    - `TicTacToe.vue`: Il componente principale della griglia di gioco.
+    - `Square.vue`: Il componente per ogni singola casella della griglia.
+  - **App.vue**: Il componente principale dell'applicazione.
+  - **main.ts**: Il file di ingresso dell'applicazione.
+- **public/**: Contiene i file statici.
+- **vite.config.ts**: Configurazione di Vite.
+
+## Licenza
+
+Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [LICENSE](./LICENSE) per maggiori dettagli.
+
+---
+
+### Tecnologie Utilizzate
+
+- [Vue 3](https://v3.vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+
+### Esempio di Utilizzo
+
+1. **Avvio del Gioco**: Una volta avviata l'applicazione, si vedrà una griglia vuota 3x3.
+2. **Alternanza di X e O**: Cliccando su una casella, essa verrà riempita con una X o una O, alternando ad ogni click.
+3. **Vincitore**: Continuare a giocare fino a completare una linea di tre simboli uguali (orizzontale, verticale o diagonale).
+
+Divertiti a giocare a Tic Tac Toe!
