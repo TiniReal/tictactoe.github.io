@@ -24,8 +24,8 @@ Benvenuti nel progetto Tic Tac Toe, un mini-sito del famoso gioco Tris sviluppat
    
 2. **Installare le Dipendenze**
    ```bash
-       npm install
-      ```
+   npm install
+   ```
 
 3. **Avviare l'Applicazione**
    ```bash
